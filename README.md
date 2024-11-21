@@ -25,24 +25,14 @@ A streamlined application for managing electronic repair services. This project 
    git clone https://github.com/Ridzz05/Electronic-Service-Management.git
    cd Electronic-Service-Management
    Install dependencies:
-    ```install dependencies
-   Install dependencies:
-    bash
-    Copy code
     composer install
     npm install
     Configure .env and database:
-    bash
-    Copy code
     cp .env.example .env
     php artisan key:generate
     Run migrations:
-    bash
-    Copy code
     php artisan migrate
     Start the development server:
-    bash
-    Copy code
     php artisan serve
     npm run dev
     
