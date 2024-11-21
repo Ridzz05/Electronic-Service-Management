@@ -1,28 +1,55 @@
-Original admin table from https://github.com/rezalastana
+# 📟 Electronic Service Management
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+A streamlined application for managing electronic repair services. This project provides an efficient way to track customer requests, manage service schedules, and monitor ongoing repairs. Built with Laravel and enhanced for modern service management needs.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## Installation
+## 🚀 Features
+- 🛠️ **Service Tracking**: Monitor and manage ongoing electronic repairs.
+- 📋 **Customer Management**: Keep customer details organized and easily accessible.
+- 🔄 **Real-Time Updates**: Track service status and history.
+- 📈 **Dashboard Insights**: View repair statistics and performance metrics.
 
-    git clone <url-github>
-    cd <name-project>
-    setup MySQL / SQLite
-    composer install
-    cp .env.example .env
-    php artisan migrate
-    php artisan db:seed
-    php artisan key:generate
-    php artisan storage:link
+---
 
-## Running Apps
+## 🧰 Tech Stack
+- **Framework**: Laravel 11
+- **Frontend**: Tailwind CSS, Livewire
+- **Database**: MySQL
 
-    php artisan serve
-    bun run dev
-# Electronic-Service-Management
+---
+
+## 📥 Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Ridzz05/Electronic-Service-Management.git
+   cd Electronic-Service-Management
+Install dependencies:
+bash
+Copy code
+composer install
+npm install
+Configure .env and database:
+bash
+Copy code
+cp .env.example .env
+php artisan key:generate
+Run migrations:
+bash
+Copy code
+php artisan migrate
+Start the development server:
+bash
+Copy code
+php artisan serve
+npm run dev
+🎨 UI Preview
+
+🤝 Contributing
+Contributions are welcome! Follow the CONTRIBUTING.md guidelines to get started.
+
+📄 License
+GPL 3.0 License
+
+⭐ Acknowledgments
+Thanks to all contributors and open-source libraries that power this project.
